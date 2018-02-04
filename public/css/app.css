@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.navbar-select-stand-li {
+  height: 50px;
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 {
+  margin: 0;
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > p {
+  margin: 0;
+}
+
+.content-wrapper {
+  margin-left: 0;
+  min-height: calc(100vh - 101px);
+}
+
+.main-footer {
+  margin-left: 0;
+}
+
+.sidebar-in {
+  margin-left: 230px;
+}
+
+.select2-container--default .select2-selection--single {
+  border-radius: 0;
+  height: 34px;
+  border-color: #d2d6de;
+}
+
+.select2 {
+  min-width: 155px !important;
+  margin-top: 10px;
+  width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+  margin-top: -3px;
+}
+
+.box-header.with-border {
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.bike-count {
+  margin-top: -58px;
+  position: absolute;
+  margin-left: 3px;
+  font-size: 16px;
+}
+
+.stand-name {
+  margin-top: -10px;
+  margin-left: 2px;
+  position: absolute;
+  font-size: 8px;
+  color: #333;
+  font-weight: 700;
+}
+
+.dropzone {
+  border: 2px dashed #0087F7;
+  border-radius: 5px;
+  background: white;
+}
+
+.dropzone .dz-message {
+  font-weight: 400;
+  font-size: 2em;
+}
+

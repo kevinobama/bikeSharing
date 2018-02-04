@@ -1,0 +1,23 @@
+# Group Authentication
+App auth
+
+# auth endpoints [/api/auth/]
+
+## Login [POST /api/auth/authenticate]
+
+#### Attributes
++ `phone_number` (string, required)
++ `password` (string, required)
+
++ Request (application/json)
+    + Body
+		{
+			"phone_number": "+4210944244393",
+			"password": "password"
+		}
++ Response 200 (application/json)
+
+    + Body
+    	{
+    		"token": "<token>"
+    	}
